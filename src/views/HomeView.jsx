@@ -10,15 +10,15 @@ function HomeView() {
 
   useEffect(() => {
     axios
-      .get("data.json")
+      .get("/data.json")
       .then(res => {
         return res.data;
       })
       .then(data1 => {
-        console.log(JSON.parse(JSON.stringify(data1)));
+        console.log(data1);
 
         setData(data1);
-      });
+      }).catch(err => console.log(err))
   }, []);
 
   return (
@@ -50,14 +50,14 @@ function HomeView() {
                   borderBottomLeftRadius: "2em",
                   borderBottomRightRadius: "2em",
                   marginTop: "2em",
-                  marginLeft:"2em"
+                  marginLeft: "2em"
                 }}
               />
-            
-                <Btn renderAs={Link} to={`/info/${val.id}`}  >{val.name}</Btn>
-                <br />
-                <div >{val.date}</div>
-             
+
+              <Btn renderAs={Link} to={`/info/${val.id}`}  >{val.name}</Btn>
+              <br />
+              <div >{val.date}</div>
+
             </div>
           );
         })}
