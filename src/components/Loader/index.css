@@ -1,0 +1,33 @@
+/*
+___________________________________________________ Loader */
+.a1_loader {
+    cursor: auto;
+    visibility: hidden;
+    overflow: hidden;
+    user-select: none;
+    display: block;
+    position: fixed;
+    z-index: 1011;
+}
+
+.a1_loader.opened {
+    visibility: visible;
+}
+
+.a1_loader.closed {
+    visibility: hidden;
+}
+
+.a1_spin {
+    animation: a1_spin 2s infinite linear
+}
+
+@keyframes a1_spin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(359deg)
+    }
+}

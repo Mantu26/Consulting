@@ -1,0 +1,16 @@
+/*
+___________________________________________________ CSS GRID*/
+.a1_row:after,
+.a1_row:before {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.a1_col {
+    float: left;
+}
+
+.a1_rest {
+    overflow: hidden
+}

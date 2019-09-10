@@ -1,0 +1,55 @@
+[{
+        "img": "img/1.jpeg",
+        "name": "Alex Jensen",
+        "date": "since 2016",
+        "id": 1,
+        "contact": 1234567890,
+        "details": [{
+            "name": "Alex Jensen",
+            "date": "since 2016",
+            "projects": "Trivago",
+            "workDone": "80%"
+        }]
+    },
+    {
+        "img": "img/2.jpeg",
+        "name": "Mantasha Shaikh",
+        "date": "since 2016",
+        "id": 2,
+        "contact": 1234567890,
+        "details": [{
+            "name": "Mantasha Shaikh",
+            "date": "since 2016",
+            "projects": "Swiggy",
+            "workDone": "85%"
+        }]
+    },
+    {
+        "img": "img/3.jpeg",
+        "name": "Joe Caprese",
+        "date": "since 2016",
+        "id": 3,
+        "contact": 1234567890,
+        "details": [{
+            "name": "Joe Caprese",
+            "date": "since 2016",
+            "projects": "Ola",
+            "workDone": "70%"
+        }]
+
+    },
+    {
+        "img": "img/4.jpg",
+        "name": "Abrar Shaikh",
+        "date": "since 2016",
+        "id": 4,
+        "contact": 1234567890,
+        "details": [{
+            "name": "Abrar Shaikh",
+            "date": "since 2016",
+            "projects": "Amazon",
+            "workDone": "90%"
+        }]
+
+    }
+]
