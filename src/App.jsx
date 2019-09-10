@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import HomeView from "./views/HomeView";
 import InfoView from "./views/InfoView";
 import ErrorView from "./views/ErrorView";
