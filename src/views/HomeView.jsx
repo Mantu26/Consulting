@@ -10,7 +10,7 @@ function HomeView() {
 
   useEffect(() => {
     axios
-      .get("/data.json")
+      .get("data.json")
       .then(res => {
         return res.data;
       })
