@@ -9,10 +9,10 @@ function InfoView(props) {
 
   useEffect(() => {
     axios
-      .get("/data.json")
+      .get("data.json")
       .then(response => response.data)
 
-      .then(data => data.find(data => data.id == params.id))
+      .then(data => data.find(data1 => data1.id == params.id))
       .then(asd => {
         setClData(asd);
       });
